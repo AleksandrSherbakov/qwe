@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>A:\Diplom\OrgTech.jar</jar>
+  <outfile>A:\Diplom\Org-Tech.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>A:\Diplom\computer.ico</icon>
+  <classPath>
+    <mainClass>project.orgtech.StartApplication</mainClass>
+    <cp>C:\qwe\javafx.base.jar</cp>
+    <cp>C:\qwe\javafx.controls.jar</cp>
+    <cp>C:\qwe\javafx.fxml.jar</cp>
+    <cp>C:\qwe\javafx.graphics.jar</cp>
+    <cp>C:\qwe\javafx.media.jar</cp>
+    <cp>C:\qwe\javafx.swing.jar</cp>
+    <cp>C:\qwe\javafx.web.jar</cp>
+  </classPath>
+  <jre>
+    <path>C:\Program Files (x86)\Java\jre-1.8</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>true</requires64Bit>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <opt>-Dprism.order=sw -Dprism.verbose=true -Dprism.forceGPU=true -Djavafx.platform=win -Djava.library.path=&quot;A:\Diplom\qwe\bin&quot; --module-path &quot;A:\Diplom\qwe&quot; --add-modules=javafx.controls,javafx.fxml</opt>
+  </jre>
+</launch4jConfig>
